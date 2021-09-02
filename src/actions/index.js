@@ -16,3 +16,9 @@ export const editUser = (data)=>{
         payload: data
     }
 }
+export const searchByName = (data)=>{
+    return{
+        type: 'SEARCH_BY_NAME',
+        payload: data
+    }
+}
