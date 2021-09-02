@@ -1,0 +1,19 @@
+.image {
+  position: relative;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.modal-info {
+  display: flex;
+  align-items: center;
+  
+}
+
+.modal-info h5 {
+  
+  margin-left: 5px;
+}

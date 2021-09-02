@@ -1,0 +1,88 @@
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* background-color: rgb(179, 179, 184); */
+  flex: 2;
+}
+
+.search-form {
+  display: flex;
+  flex: 3;
+  justify-content: center;
+}
+
+.search-form * {
+  margin-left: 5px;
+}
+
+input {
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-size: 14px;
+}
+
+.search-form__name {
+  width: 400px;
+  height: 35px;
+  font-size: 22px;
+  transition: all 0.3s ease;
+  border: 1px solid white;
+}
+
+.search-form__name:focus {
+  border: 1px solid rgb(137, 238, 54);
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.search-form__gender {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: rgb(203, 203, 209);
+}
+
+.search-form__gender,
+.search-form__nationality {
+  width: 150px;
+  
+  border: 1px solid white;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.search-form__nationality:focus {
+  border: 1px solid rgb(137, 238, 54);
+}
+
+.clear {
+  display: flex;
+  flex: 1;
+
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.clear button {
+  border: none;
+}
+
+.add-user {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 3px 0px,
+    rgba(0, 0, 0, 0.06) 2px 2px 2px 2px;
+}
+
+.add-user:hover {
+  background-color: rgb(133, 245, 89);
+}
